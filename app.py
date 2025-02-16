@@ -19,8 +19,8 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import PlainTextResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from tasksA import *
-from tasksB import *
+from tasksA import A1,A2,A3,A4,A5,A6,A7,A8,A9,A10
+from tasksB import B12, B3, B5, B6, B7, B9
 import requests
 from dotenv import load_dotenv
 import os
